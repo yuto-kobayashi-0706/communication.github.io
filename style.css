@@ -1,0 +1,59 @@
+@charset "UTF-8";
+button{
+    font-size:20pt;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+.No{
+    border-top: none;
+    border-left: none;
+}
+.else_No{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.else_else_No{
+    border-top: none;
+    border-bottom: none;
+    width: 100px;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    height: 175px;
+}
+td{
+    border: solid 2px #000;
+    text-align: center;
+}
+h1{
+    background-color: yellow;
+}
+.small_button{
+    height: 30px;
+    width: 60px;
+    font-size: 15pt;
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13pt;
+    text-align: left;
+}
+.choice{
+    font-size:20pt;
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+}
+.question{
+    font-size: 16pt;
+}
+.long_button{
+    width: 180px;
+}
+.choice_font{
+    font-size: 20pt;
+}
