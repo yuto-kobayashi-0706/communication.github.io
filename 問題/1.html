@@ -33,13 +33,16 @@
     function answer(x){
         if(x==1){
             alert('正解！おめでとう！')
+            random();
         }
         else if(x==0){
             alert('残念！不正解！')
+            random();
         }
         else{
             alert('error!')
         }
+        random()
     }
     function random(){
         var random = Math.floor(Math.random()*array.length);
