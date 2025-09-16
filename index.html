@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>コミュニケーション</title>
+<link rel="stylesheet" href="./style.css">
+<style>
+</style>
+</head>
+
+<body style="text-align: center;">
+    <h1>コミュニケーション</h1>
+    <h2>全18問</h2>
+    <hr><br>
+    <p><button onclick="random()">コミュニケーションの問題へ</button></p>
+    <br><hr>
+<script>
+    let array = ["./コミュニケーション/index.html"]
+    function random(){
+        var random = Math.floor(Math.random()*array.length);
+        let randomPages = array[random];
+        window.location.href = randomPages;
+    }
+</script>
+</body>
+
+</html>
