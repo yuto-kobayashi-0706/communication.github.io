@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>コミュニケーション</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+</style>
+</head>
+
+<body style="text-align: center;">
+    <h1>コミュニケーション</h1>
+    <h2>全18問</h2>
+    <hr><br>
+    <p><button onclick="random()">開始</button></p>
+    <br><hr>
+<script>
+    let array = ["./問題/1.html","./問題/2.html","./問題/3.html","./問題/4.html","./問題/5.html","./問題/6.html","./問題/7.html","./問題/8.html","./問題/9.html","./問題/10.html","./問題/11.html","./問題/12.html","./問題/13.html","./問題/14.html","./問題/15.html","./問題/16.html","./問題/17.html","./問題/18.html","./問題/19.html","./問題/20.html","./問題/21.html","./問題/22.html","./問題/23.html","./問題/24.html","./問題/25.html","./問題/26.html","./問題/27.html",]
+    function random(){
+        var random = Math.floor(Math.random()*array.length);
+        let randomPages = array[random];
+        window.location.href = randomPages;
+    }
+</script>
+</body>
+
+</html>
